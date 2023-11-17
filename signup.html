@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="" />
+        <title>Newsletter Signup</title>
+        <!-- bootstrap cdn -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <!-- custom css -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body class="d-flex align-items-center bg-body-tertiary">
+        <main class="form-signin w-100 m-auto">
+            <form action="/" , method="post">
+                <div class="myTitle">
+                    <h5 class="myTitle fw-lighter text-center">
+                        Signup To My Newsletter
+                    </h5>
+                </div>
+                <input
+                    type="text"
+                    name="firstName"
+                    class="form-control top"
+                    placeholder="First name"
+                    required
+                    autofocus
+                />
+                <input
+                    type="text"
+                    name="lastName"
+                    class="form-control middle"
+                    placeholder="Last name"
+                    required
+                />
+                <input
+                    type="email"
+                    name="email"
+                    class="form-control bottom"
+                    placeholder="Email"
+                    required
+                />
+
+                <button class="btn btn-primary w-100" type="submit">
+                    Signup
+                </button>
+            </form>
+        </main>
+    </body>
+</html>
